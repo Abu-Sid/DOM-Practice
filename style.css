@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f2f2f2;
+}
+main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+section {
+  width: 60%;
+}
+section img {
+  width: 100%;
+  object-fit: contain;
+}
+aside {
+  width: 30%;
+  border: 1px solid #ccc;
+}
+#milestone {
+  border-bottom: 2px solid #ccc;
+}
+.milestone-title {
+  display: flex;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.693);
+  color: #fff;
+  border-bottom: 2px solid #ccc;
+}
+.hidden-section {
+  display: none;
+}
+.show-section {
+  display: block !important;
+}
